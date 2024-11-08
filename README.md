@@ -6,5 +6,5 @@ This is a [Heroku buildpack](https://devcenter.heroku.com/articles/buildpacks) f
 
 | Variable | Description
 | -------- | -----------
-| `CADDY_REPO` | The GitHub repository used to find Caddy releases.  Defaults to `mholt/caddy`.
+| `CADDY_REPO` | The GitHub repository used to find Caddy releases.  Defaults to `caddyserver/caddy`.
 | `CADDY_VERSION` | The version of Caddy to install.

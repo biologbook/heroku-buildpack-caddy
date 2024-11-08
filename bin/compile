@@ -15,10 +15,10 @@ CADDY_EXTRACT_DIR="$INSTALL_DIR/extract"
 
 if [ ! -f $CACHE_FILE ]; then
   # Install caddy
-  CADDY_REPO="${CADDY_REPO:-mholt/caddy}"
+  CADDY_REPO="${CADDY_REPO:-caddyserver/caddy}"
   CADDY_VERSION="${CADDY_VERSION:-0.10.6}"
   CADDY_FILE="caddy"
-  CADDY_ARCHIVE="caddy_v${CADDY_VERSION}_linux_amd64.tar.gz"
+  CADDY_ARCHIVE="caddy_${CADDY_VERSION}_linux_amd64.tar.gz"
   CADDY_URL="https://github.com/$CADDY_REPO/releases/download/v$CADDY_VERSION/$CADDY_ARCHIVE"
 
   echo "-----> Downloading Caddy"
